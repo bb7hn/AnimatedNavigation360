@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.min.css">
+    <link rel="stylesheet" href="styles/icons.css">
+    <script src="scripts/feather.min.js"></script>
+</head>
+<body>
+    <div class="an360">
+        <div class="link-container">
+            <ul id="menu_example" class="menu">
+                <div id="toggle_menu_example" class="toggle">
+                    <span>
+                        <i data-feather="plus"></i>
+                    </span>
+                </div>
+                <li class="noSelect al360__item">
+                    <a class="linkedin" href="#">
+                        <i data-feather="linkedin"></i>
+                        <span class="tooltip">
+                            LınkedIn 
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="instagram" href="#">
+                        <i data-feather="instagram"></i>
+                        <span class="tooltip">
+                            Instagram 
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="twitter" href="#">
+                        <i data-feather="twitter"></i>
+                        <span class="tooltip">
+                            Twitter
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="github" href="#">
+                        <i data-feather="github"></i>
+                        <span class="tooltip">
+                            GitHub
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="resume" href="#">
+                        <i data-feather="file"></i>
+                        <span class="tooltip">
+                            Rèsume
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="contact" href="#">
+                        <i data-feather="message-circle"></i>
+                        <span class="tooltip">
+                            Contact
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+                <li class="noSelect al360__item">
+                    <a class="settings" href="#">
+                        <i data-feather="settings"></i>
+                        <span class="tooltip">
+                            Settings
+                            <i class="arrow"></i>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="scripts/main.min.js"></script>
+    <script>
+        feather.replace();
+        let params = {
+            menuId      : 'menu_example',
+            toggleId    : 'toggle_menu_example'
+        }
+        toggler(params);
+    </script>
+</body>
+</html>
