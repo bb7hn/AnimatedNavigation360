@@ -55,7 +55,6 @@ There is another important point. I include feather icon to my page so I use tha
     </div>
 ```
 - Last part is creating links. 
-<br>
 An example link should look like this:
 ```HTML
     <li class="noSelect al360__item">
