@@ -37,9 +37,7 @@ git clone https://github.com/bb7hn/AnimatedNavigation360.git
 ```
 - Now we're almost ready. ***ul*** must contain toggle button and links in it.
 - Now, need to add toggle button. While you're adding remember that: 
-<br> 
 **There is something important about toggle button. it needs and ID**
-<br>
 There is another important point. I include feather icon to my page so I use that icons for toggle button and links. Icon is in a span in toggle button because icon will rotate when it's active as default .
 ```HTML
     <div class="an360">
