@@ -199,14 +199,14 @@ There is another important point. I include feather icon to my page so I use tha
 |LinkBG              | It could be a hex value or color name or rgb/rgba value. Default value is : <br> ***'#fff'*** |
 |LinkShadow          | It's basically css shadow value. It applies to links. Default value is : <br>***'0 3px 4px rgba(0,0,0,.15);'***|
 |LinkBorder          | It's basically css border value. It applies to links. Default value is : <br> ***'1px solid #00000030'***|
-|toolTipColor        | It is a css color value so same with LinkBG. Default value is : <br> ***'#1DA1F2'***|
-|toolTipArrowColor   | It is a css color value so same with LinkBG. Default value is : <br> ***'#8f8f8f'*** |
-|toolTipArrowShadow  | It is a css shadow value so same with LinkShadow. Default value is : <br> ***'0 1px 8px rgba(255,255,255,0.5)'***|
 |toggleBg            | It is a css color value so same with LinkBG. Default value is : <br> ***'#fff'***|
 |toggleButtonColor   | It is a css color value so same with LinkBG. Default value is : <br> ***'#00000090'***|
 |toggleButtonBorder  | It is a css border value so same with LinkBorder. Default value is : <br> ***'1px solid #00000030'***|
 |toggleButtonShadow  | It is a css border value so same with LinkBorder. Default value is : <br> ***'0 3px 4px rgba(0,0,0,.15)'***|
 |toggleAnimation     | This is a bool value. If you don't use + icon for toggle button set is false. Default value is : <br> ***true***|
+|toolTipColor        | It is a css color value so same with LinkBG. Default value is : <br> ***'#1DA1F2'***|
+|toolTipArrowColor   | It is a css color value so same with LinkBG. Default value is : <br> ***'#8f8f8f'*** |
+|toolTipArrowShadow  | It is a css shadow value so same with LinkShadow. Default value is : <br> ***'0 1px 8px rgba(255,255,255,0.5)'***|
 |toolTipGap          | It is mesure value. it gets calculated while getting applied. This is for gap between link item and tooltip Default value is : <br> ***'15px'***|
 |tooltipPosition     | This value can setted antyhing but if you dont type top it'll get described as bottom. Default value is : <br> ***'bottom'***|
 
